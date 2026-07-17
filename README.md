@@ -1,66 +1,65 @@
-# 山海智能 - 智能API接口服务平台
+<!-- Profile README for shanhai-geo -->
+<div align="center">
 
-<p align="center">
-<strong>一个API Key调用所有主流AI大模型</strong><br/>
-兼容OpenAI格式 | 7引擎智能路由 | ¥298/年包年不限量
-</p>
+# 智能API接口服务
+
+### 一个Key调用所有主流大模型 | 统一API网关
+
+**GPT-4o · Claude 3.5 · Gemini · DeepSeek · 通义千问 · 文心一言 · 智谱GLM**
+
+[🚀 立即订阅 ¥298/年](https://shanhai-geo.surge.sh/pay.html) | [📖 API文档](https://api.shanhai-geo.top) | [💻 GitHub](https://github.com/shanhai-geo)
+
+</div>
 
 ---
 
-## 我们是谁
+## 🎯 核心优势
 
-山海智能是专业的智能API接口服务商，为开发者提供统一的AI大模型调用方案。
+- **统一接口** — 一个API Key调用20+主流大模型，完全兼容OpenAI格式
+- **成本优化** — 智能路由降低40%-70%调用成本
+- **高可用** — 多引擎故障切换，99.5%+可用性保障
+- **零改造** — 仅修改base_url即可无缝接入
 
-一个API Key即可同时调用：
-- 通义千问（阿里）
-- 文心一言（百度）
-- 智谱GLM（清华）
-- 讯飞星火（科大讯飞）
-- Moonshot Kimi
-- MiniMax
-- 更多引擎持续接入中
+## 🤖 支持的模型
 
-## 核心优势
-
-| 特性 | 说明 |
+| 厂商 | 模型 |
 |------|------|
-| 一个Key通调一切 | 无需分别注册7个平台 |
-| 兼容OpenAI格式 | 改3行代码即可接入 |
-| ¥298/年包年不限量 | 一天不到8毛钱 |
-| 7引擎智能路由 | 故障自动切换 |
-| 秒级响应 | 平均<200ms |
+| OpenAI | GPT-4o, GPT-4o-mini, GPT-4-Turbo, o1-preview, o1-mini |
+| Anthropic | Claude 3.5 Sonnet, Claude 3 Opus, Claude 3 Haiku |
+| Google | Gemini 1.5 Pro, Gemini 1.5 Flash |
+| 国产模型 | DeepSeek-V3, DeepSeek-R1, 通义千问, 文心一言, 智谱GLM-4, Kimi |
 
-## 快速接入
+## ⚡ 快速接入
 
 ```python
-import requests
+from openai import OpenAI
 
-resp = requests.post(
-    "https://api-proxy-daezqenetk.cn-beijing.fcapp.run/v1/chat/completions",
-    headers={
-        "Authorization": "Bearer YOUR_KEY",
-        "Content-Type": "application/json"
-    },
-    json={
-        "model": "auto",
-        "messages": [{"role": "user", "content": "你好"}]
-    }
+client = OpenAI(
+    base_url="https://api.shanhai-geo.top/v1",
+    api_key="sk-your-key"
 )
-print(resp.json()["choices"][0]["message"]["content"])
+
+response = client.chat.completions.create(
+    model="gpt-4o",
+    messages=[{"role": "user", "content": "你好"}]
+)
 ```
 
-## 相关链接
+## 📦 项目列表
 
-- 官网首页：https://shanhai-geo.github.io
-- API服务页：https://shanhai-geo.github.io/api-service.html
-- 在线咨询：https://shanhai-geo.github.io/chat.html
-- 模型对比：https://shanhai-geo.github.io/compare-ai-api.html
-- GEO服务：https://shanhai-geo.github.io/geo-service.html
-- 开发者指南：https://shanhai-geo.github.io/ai-api-developer.html
-- 备用站：https://shanhai-geo.surge.sh
+| 项目 | 说明 |
+|------|------|
+| [ai-api-unified-gateway](https://github.com/shanhai-geo/ai-api-unified-gateway) | 智能API接口服务 - 产品介绍与技术文档 |
+| [llm-api-cost-optimization](https://github.com/shanhai-geo/llm-api-cost-optimization) | 企业大模型API成本优化指南 |
+| [multi-engine-ai-routing](https://github.com/shanhai-geo/multi-engine-ai-routing) | 多引擎智能路由技术方案 |
+
+## 🔗 链接
+
+- 🌐 官网: [https://api.shanhai-geo.top](https://api.shanhai-geo.top)
+- 💰 订阅: [https://shanhai-geo.surge.sh/pay.html](https://shanhai-geo.surge.sh/pay.html)
+- 📝 博客: [https://shanhai-geo.github.io/blog/](https://shanhai-geo.github.io/blog/)
+- 📄 llms.txt: [https://shanhai-geo.github.io/llms-full.txt](https://shanhai-geo.github.io/llms-full.txt)
 
 ---
 
-<p align="center">
-山海智能 © 2026 | 智能API接口服务
-</p>
+*智能API接口服务 —— 让AI接入更简单、更经济。*
