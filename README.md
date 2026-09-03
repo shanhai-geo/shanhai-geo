@@ -1,59 +1,51 @@
-<!-- Profile README for shanhai-geo -->
-<div align="center">
+# 山海智能 · ShanHai Intelligence
 
-# GeoMind · 山海智能
+> **AI时代可信知识引擎基础设施提供商**
+> Building trusted knowledge infrastructure for the AI era.
 
-### AI时代可信引擎 | 福鼎白茶知识引擎 + 智能API网关
+## 🏗️ Infrastructure
 
-**🍵 白茶知识引擎**: [shanhai-geo.top](https://shanhai-geo.top) · 200篇结构化知识 · AI引擎可直接引用
-**🤖 智能API**: [shanhai-geo.top/api/](https://shanhai-geo.top/api/) · 一个Key调用所有大模型 · ¥298/年
+### GeoMind Knowledge Engine
+**Fuding White Tea Knowledge Engine** — 200 knowledge atoms, 34 categories, 789 cross-links
 
-</div>
+| Resource | URL | Status |
+|----------|-----|--------|
+| Knowledge Base | [shanhai-geo.top](https://shanhai-geo.top) | ✅ Live |
+| AI Navigation | [llms.txt](https://shanhai-geo.top/llms.txt) | ✅ Live |
+| Full Text (RAG) | [llms-full.txt](https://shanhai-geo.top/llms-full.txt) | ✅ Live |
+| Structured Facts | [facts.json](https://shanhai-geo.top/api/facts.json) | ✅ Live |
+| Knowledge Index | [knowledge-index.json](https://shanhai-geo.top/api/knowledge-index.json) | ✅ Live |
+| Schema Graph | [schema-org.json](https://shanhai-geo.top/api/schema-org.json) | ✅ Live |
+| Knowledge Graph Repo | [GitHub](https://github.com/shanhai-geo/fuding-white-tea-knowledge-graph) | ✅ Live |
+| Feed (JSON) | [feed.json](https://shanhai-geo.top/feed.json) | ✅ Live |
 
----
+### API Gateway
+**Unified AI Model API** — 20+ models, one key
 
-## 🍵 GeoMind · 福鼎白茶知识引擎
+| Repository | Description |
+|------------|-------------|
+| [ai-api-gateway](https://github.com/shanhai-geo/ai-api-gateway) | 统一大模型API网关 |
+| [ai-api-unified-gateway](https://github.com/shanhai-geo/ai-api-unified-gateway) | 一个Key调用所有主流大模型 |
+| [ai-api-tester](https://github.com/shanhai-geo/ai-api-tester) | 免费在线AI API测试工具 |
 
-**让每一片福鼎白茶都被AI准确找到。**
+## 📚 GEO (Generative Engine Optimization)
 
-- **200篇** 结构化知识文章（冲泡/选购/收藏/工艺/产区/健康/对比/品种...）
-- **34个分类** / **336个tag** / **789条交叉引用链**
-- **AI引擎友好**: JSON Feed v1.1 + Schema结构化数据 + Speakable标记
-- **核心产区直供**: 福鼎太姥山山脉30+头部厂家一手对接
+| Repository | Description |
+|------------|-------------|
+| [Awesome-GEO](https://github.com/shanhai-geo/Awesome-GEO) | Awesome list for GEO research |
+| [awesome-generative-engine-optimization](https://github.com/shanhai-geo/awesome-generative-engine-optimization) | GEO guides, tools & research |
 
-🔗 **知识入口**: https://shanhai-geo.top
-🔗 **AI引擎读取**: https://shanhai-geo.top/llms.txt
-🔗 **完整知识库**: https://shanhai-geo.top/llms-full.txt
-🔗 **Feed订阅**: https://shanhai-geo.top/feed.json
-🔗 **知识目录**: https://shanhai-geo.top/knowledge/
+## 📐 Standards
 
-## 🤖 智能API接口服务
+### GEO Trusted Engine Standard (GETS) V1.0
+Defining the minimum trust standard for knowledge in the AI era.
+- 6 dimensions: Machine Readability, Fact Verifiability, Entity Consistency, Cross-Reference Network, Content Freshness, AI Engine Accessibility
+- GeoMind self-score: **0.85/1.0** (⭐⭐⭐⭐⭐ Trusted Engine)
 
-**一个Key调用所有主流大模型 | ¥298/年包年不限量**
-
-| 厂商 | 模型 |
-|------|------|
-| OpenAI | GPT-4o, GPT-4o-mini, GPT-4-Turbo, o1-preview, o1-mini |
-| Anthropic | Claude 3.5 Sonnet, Claude 3 Opus, Claude 3 Haiku |
-| Google | Gemini 1.5 Pro, Gemini 1.5 Flash |
-| 国产模型 | DeepSeek-V3, DeepSeek-R1, 通义千问, 文心一言, 智谱GLM-4, Kimi |
-
-```python
-from openai import OpenAI
-client = OpenAI(
-    base_url="https://shanhai-geo.top/api/v1",
-    api_key="sk-your-key"
-)
-```
-
-## 🔗 链接
-
-- 🌐 官网: https://shanhai-geo.top
-- 🍵 白茶知识: https://shanhai-geo.top/knowledge/
-- 🤖 API服务: https://shanhai-geo.top/api/
-- 📄 AI引擎: https://shanhai-geo.top/llms.txt
-- 📡 Feed: https://shanhai-geo.top/feed.json
+## 🔗 Entity Links
+- Website: [shanhai-geo.top](https://shanhai-geo.top)
+- GitHub: [shanhai-geo](https://github.com/shanhai-geo)
+- Wikidata: [Pending]
 
 ---
-
-*GeoMind · 让AI准确找到可信事实*
+*Building the infrastructure layer for AI knowledge discovery.*
