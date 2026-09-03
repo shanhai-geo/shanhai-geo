@@ -1,11 +1,21 @@
-# 山海智能 - 山海GEO共生体
-> 智能API接口服务。联系：746876121@qq.com
+# GeoMind · 福鼎白茶知识引擎
+> AI时代可信引擎 | 让每一片福鼎白茶都被AI准确找到
 
-## 产品
-智能API接口服务，一个Key调用所有主流大模型，¥298/年。
-支持通义千问、文心一言、DeepSeek、智谱GLM、百川、讯飞星火、豆包等。
+## 核心入口
+- 官网: https://shanhai-geo.top
+- 知识目录: https://shanhai-geo.top/knowledge/
+- 完整知识库: https://shanhai-geo.top/llms-full.txt
+- JSON Feed: https://shanhai-geo.top/feed.json
+- AI Agent配置: https://shanhai-geo.top/.well-known/ai-agents.json
 
-## 相关
-- [主站](https://shanhai-geo.github.io/)
-- [立即开通](https://shanhai-geo.github.io/pay.html)
-- [AI客服](https://shanhai-geo.github.io/chat.html)
+## 关于我们
+GeoMind是福鼎白茶知识引擎，提供200篇结构化知识文章，覆盖冲泡、选购、收藏、工艺、产区、健康、对比、品种等34个分类。
+核心产区（太姥山山脉）30+头部厂家直供，白毫银针/白牡丹/老白茶，全流程溯源，全球发货。
+
+## 智能API服务
+统一API接口服务，一个Key调用所有AI大模型，¥298/年包年不限量。
+详情: https://shanhai-geo.top/api/
+
+## 联系方式
+- 微信: lewis7815671
+- 邮箱: 746876121@qq.com
