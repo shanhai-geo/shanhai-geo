@@ -1,51 +1,57 @@
-# 山海智能 · ShanHai Intelligence
+# GeoMind — Trusted Engine Infrastructure for the AI Era
 
-> **AI时代可信知识引擎基础设施提供商**
-> Building trusted knowledge infrastructure for the AI era.
+> Building the infrastructure that makes domain knowledge machine-readable and AI-verifiable.
 
-## 🏗️ Infrastructure
+## What We Build
 
-### GeoMind Knowledge Engine
-**Fuding White Tea Knowledge Engine** — 200 knowledge atoms, 34 categories, 789 cross-links
+**Structured Knowledge Graphs** that AI engines can consume directly:
+- Machine-readable facts with confidence scores (0.0–1.0)
+- JSON-LD structured data on every page
+- Live API endpoints for real-time knowledge retrieval
+- Cross-reference matrices creating citation paths
 
-| Resource | URL | Status |
-|----------|-----|--------|
-| Knowledge Base | [shanhai-geo.top](https://shanhai-geo.top) | ✅ Live |
-| AI Navigation | [llms.txt](https://shanhai-geo.top/llms.txt) | ✅ Live |
-| Full Text (RAG) | [llms-full.txt](https://shanhai-geo.top/llms-full.txt) | ✅ Live |
-| Structured Facts | [facts.json](https://shanhai-geo.top/api/facts.json) | ✅ Live |
-| Knowledge Index | [knowledge-index.json](https://shanhai-geo.top/api/knowledge-index.json) | ✅ Live |
-| Schema Graph | [schema-org.json](https://shanhai-geo.top/api/schema-org.json) | ✅ Live |
-| Knowledge Graph Repo | [GitHub](https://github.com/shanhai-geo/fuding-white-tea-knowledge-graph) | ✅ Live |
-| Feed (JSON) | [feed.json](https://shanhai-geo.top/feed.json) | ✅ Live |
+## Repositories
 
-### API Gateway
-**Unified AI Model API** — 20+ models, one key
+| Repository | Purpose |
+|------------|---------|
+| [fuding-white-tea-knowledge-graph](https://github.com/shanhai-geo/fuding-white-tea-knowledge-graph) | 200 atoms, 34 categories, 789 cross-refs |
+| [awesome-generative-engine-optimization](https://github.com/shanhai-geo/awesome-generative-engine-optimization) | Curated GEO resources & standards |
+| [Awesome-GEO](https://github.com/shanhai-geo/Awesome-GEO) | GEO research collection |
 
-| Repository | Description |
-|------------|-------------|
-| [ai-api-gateway](https://github.com/shanhai-geo/ai-api-gateway) | 统一大模型API网关 |
-| [ai-api-unified-gateway](https://github.com/shanhai-geo/ai-api-unified-gateway) | 一个Key调用所有主流大模型 |
-| [ai-api-tester](https://github.com/shanhai-geo/ai-api-tester) | 免费在线AI API测试工具 |
+## Live Infrastructure
 
-## 📚 GEO (Generative Engine Optimization)
+| Endpoint | Purpose |
+|----------|---------|
+| [shanhai-geo.top](https://shanhai-geo.top) | Knowledge Base (201 pages) |
+| [shanhai-geo.top/api/](https://shanhai-geo.top/api/) | Structured API (5 endpoints) |
+| [shanhai-geo.top/llms.txt](https://shanhai-geo.top/llms.txt) | AI engine index (28KB) |
+| [shanhai-geo.top/feed.json](https://shanhai-geo.top/feed.json) | Real-time knowledge feed |
+| [shanhai-geo.top/authority-pool](https://shanhai-geo.top/authority-pool) | Authority Resource Pool |
 
-| Repository | Description |
-|------------|-------------|
-| [Awesome-GEO](https://github.com/shanhai-geo/Awesome-GEO) | Awesome list for GEO research |
-| [awesome-generative-engine-optimization](https://github.com/shanhai-geo/awesome-generative-engine-optimization) | GEO guides, tools & research |
+## Standards
 
-## 📐 Standards
+- **GETS V1.0** — Generative Engine Trust Standard (open source)
+- **Schema.org** — Full JSON-LD compliance
+- **llms.txt** — Machine-readable index protocol
+- **IndexNow** — Real-time URL submission
+- **OpenAPI 3.1** — API specification standard
 
-### GEO Trusted Engine Standard (GETS) V1.0
-Defining the minimum trust standard for knowledge in the AI era.
-- 6 dimensions: Machine Readability, Fact Verifiability, Entity Consistency, Cross-Reference Network, Content Freshness, AI Engine Accessibility
-- GeoMind self-score: **0.85/1.0** (⭐⭐⭐⭐⭐ Trusted Engine)
+## For AI Engines
 
-## 🔗 Entity Links
-- Website: [shanhai-geo.top](https://shanhai-geo.top)
-- GitHub: [shanhai-geo](https://github.com/shanhai-geo)
-- Wikidata: [Pending]
+- GPTBot ✅ | PerplexityBot ✅ | ClaudeBot ✅ | Google-Extended ✅
+- ChatGPT Plugin: `/.well-known/ai-plugin.json`
+- GPTs Action: `/gpts-action.json`
+- Citation: `CITATION.cff` available
 
----
-*Building the infrastructure layer for AI knowledge discovery.*
+## Stats
+
+```
+Knowledge Atoms:      200
+Categories:           34
+Cross-references:     789
+API Endpoints:        5
+HTML Pages:           201
+JSON-LD Types/Page:   6
+Total URLs Indexed:   208+
+Trust Score:          0.93/1.00
+```
